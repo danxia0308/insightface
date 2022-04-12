@@ -116,7 +116,7 @@ dataset = edict()
 
 dataset.emore = edict()
 dataset.emore.dataset = 'emore'
-dataset.emore.dataset_path = '../datasets/faces_emore'
+dataset.emore.dataset_path = '/root/mydata/faces_emore'
 dataset.emore.num_classes = 85742
 dataset.emore.image_shape = (112, 112, 3)
 dataset.emore.val_targets = ['lfw', 'cfp_fp', 'agedb_30']
